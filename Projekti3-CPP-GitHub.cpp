@@ -16,10 +16,10 @@ int main() {
 
     do {
         cout << "\n====================================\n";
-        cout << "   SISTEM PËR MENAXHIMIN E STUDENTËVE\n";
+        cout << "   SISTEM PER MENAXHIMIN E STUDENTÃ‹VE\n";
         cout << "====================================\n";
         cout << "1. Shto student\n";
-        cout << "2. Shfaq studentët\n";
+        cout << "2. Shfaq studentet\n";
         cout << "0. Dil\n";
         cout << "Zgjedhja: ";
         cin >> choice;
@@ -41,10 +41,10 @@ int main() {
         }
         else if (choice == 2) {
             if (students.empty()) {
-                cout << "Nuk ka studentë të regjistruar.\n";
+                cout << "Nuk ka studente te regjistruar.\n";
             }
             else {
-                cout << "\nLISTA E STUDENTËVE:\n";
+                cout << "\nLISTA E STUDENTEVE:\n";
                 for (const auto& s : students) {
                     cout << "ID: " << s.id
                         << " | Emri: " << s.name
@@ -63,3 +63,4 @@ int main() {
 
     return 0;
 }
+
